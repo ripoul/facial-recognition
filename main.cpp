@@ -1,4 +1,5 @@
 #include <opencv2/opencv.hpp>
+#include <stdio.h>
 
 int main(){
     try
@@ -9,7 +10,7 @@ int main(){
             throw -101;
         }
         cv::Mat img;
-        cv::namedWindow("Window2", cv::WINDOW_AUTOSIZE);
+        cv::namedWindow("window2", cv::WINDOW_AUTOSIZE);
         while(true){
             videoOpenCv.read(img);
             cv::imshow("window2", img);
