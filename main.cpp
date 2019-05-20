@@ -11,6 +11,7 @@ int main(){
     }
     catch(int e)
     {
+        fprintf(stderr, "There was an error in camera opening");
         return e;
     }
     return 0;
