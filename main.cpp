@@ -15,6 +15,7 @@ int main(){
             cv::imshow("window2", img);
             int key = cv::waitKey(1000/25);
             if(key==(int)'q'){
+                cv::imwrite("test.png", img);
                 break;
             }
         }
