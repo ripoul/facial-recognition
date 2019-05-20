@@ -13,14 +13,17 @@ int main(){
             throw -101;
         }
         cv::Mat img;
+        cv::Mat greyIMG;
         cv::namedWindow("window2", cv::WINDOW_AUTOSIZE);
         while(true){
+            
             videoOpenCv.read(img);
-            cv::imshow("window2", img);
+            cvtColor(img,greyIMG,CV_BGR2GRAY);
+            cv::imshow("window2", greyIMG);
             int key = cv::waitKey(1000/25);
             if(key==(int)'q'){
                 string name = "p"+std::to_string(cpt)+".png";
-                cv::imwrite(name, img);
+                cv::imwrite(name, greyIMG);
                 cpt++;
             }
             if (cpt==10){
