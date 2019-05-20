@@ -20,3 +20,14 @@ Let's try (in `./sample2`):
 make
 ./main
 ```
+
+## training
+
+Lunch the webcam and take a photo when q is pressed (10 times).
+
+Let's try (in `./training`):
+
+```
+make
+./main
+```
