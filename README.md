@@ -54,3 +54,7 @@ Let's try (in `./recognition`):
 ```
 make
 ```
+
+## some usefull cmd
+
+* `convert p6.png -resize 92x112! p6.png`
