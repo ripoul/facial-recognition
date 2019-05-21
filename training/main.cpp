@@ -38,3 +38,4 @@ int main(){
     }
     return 0;
 }
+//https://answers.opencv.org/question/87261/extract-parts-from-image/
