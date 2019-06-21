@@ -1,5 +1,27 @@
-# facial-recognition
-## sample 1
+<h1 align="center">Welcome to facial-recognition 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/ripoul/facial-recognition">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="http://www.wtfpl.net/">
+    <img alt="License: wtfpl" src="https://img.shields.io/badge/License-wtfpl-yellow.svg" target="_blank" />
+  </a>
+</p>
+
+> reconnaitre la tête des gens
+
+### 🏠 [Homepage](https://github.com/ripoul/facial-recognition)
+
+## Author
+
+👤 **Jules**
+
+* Github: [@ripoul](https://github.com/ripoul)
+
+## How To use it
+
+### sample 1
 
 Lunch the webcam and take a picture when pressing 'q'.
 
@@ -10,7 +32,7 @@ make
 ./main
 ```
 
-## sample 2
+### sample 2
 
 Lunch the webcam and auto-detect if a human is here.
 
@@ -21,7 +43,7 @@ make
 ./main
 ```
 
-## training
+### training
 
 Lunch the webcam and take a photo when q is pressed (10 times).
 
@@ -32,7 +54,7 @@ make
 ./main
 ```
 
-## recognition
+### recognition
 
 Needed before try the example : 
 * several set of picture (9 images by set). Each set have to be on the same person. Only the head has to appear.
@@ -55,6 +77,20 @@ Let's try (in `./recognition`):
 make
 ```
 
-## some usefull cmd
+### some usefull cmd
 
 * `convert p6.png -resize 92x112! p6.png`
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ripoul/facial-recognition/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [Jules](https://github.com/ripoul).<br />
+This project is [wtfpl](http://www.wtfpl.net/) licensed.
+
