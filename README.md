@@ -79,7 +79,8 @@ make
 
 ### some usefull cmd
 
-* `convert p6.png -resize 92x112! p6.png`
+* `convert p6.png -resize 92x112! p6.png` or 
+* Or if all pictures are in the same folder, cd to this folder and execute : `for i in $(ls); do convert $i -resize 92x112! $i; done`
 
 ## 🤝 Contributing
 
