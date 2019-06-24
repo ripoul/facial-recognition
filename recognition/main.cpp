@@ -128,7 +128,7 @@ int main(int argc, const char *argv[]) {
         // And display it:
         char key = (char) waitKey(20);
         // Exit this loop on escape:
-        if(key == 27)
+        if(key == (int)'q')
             break;
     }
     return 0;
