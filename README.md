@@ -57,7 +57,7 @@ make
 ### recognition
 
 Needed before try the example : 
-* several set of picture (9 images by set). Each set have to be on the same person. Only the head has to appear.
+* several set of picture of the same resolution (10 images by set). Each set have to be on the same person. Only the head has to appear.
 * you need to create a csv file with this format : 
 ```
 path/To/Img;numberOfTheSet
